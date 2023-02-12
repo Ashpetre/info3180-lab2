@@ -1,3 +1,86 @@
 body {
     padding-top: 5rem;
 }
+.profile {
+    text-align: center;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+  }
+  
+  .profile h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .profile h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #666;
+  }
+  
+  .profile p.description {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .profile ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .profile ul li {
+    font-size: 18px;
+    color: #666;
+    margin-right: 20px;
+  }
+  
+  .profile ul li strong {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    font-size: 24px;
+  }
+  
+  .profile button {
+    margin-top: 20px;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .profile h1, .profile h2 {
+    background-color: #057ab0; /* set the background color for the username section */
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .profile img {
+    background-color: #057ab0; /* set the background color for the profile picture section */
+    padding: 10px;
+    border-radius: 50%; /* make the profile picture circular */
+  }
+  
+  .profile p {
+    margin: 10px 0;
+  }
+  .top-section {
+    background-color: #3366cc; /* set the background color for the top section */
+    color: #fff; /* set the text color to white */
+    padding: 5px;
+    border-radius: 5px;
+  }
+  

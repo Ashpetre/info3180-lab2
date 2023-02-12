@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Application CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+
+  </head>
+{% block main %}
+<div class="profile">
+    <div class="top-section">
+    <img src="{{ url_for('static', filename='profile.jpg') }}" alt="profile Image">
+    <h1>{{username}}</h1>
+    <h2>@{{name}}</h2>
+    <p>{{bio}}</p>
+    <p><strong>Joined </strong>{{date_joined}}</p>
+    </div>
+    <ul>
+      
+      <li><strong>Posts</strong> {{num_posts}}</li>
+      <li><strong>Followers</strong> {{num_followers}}</li>
+      <li><strong>Following</strong> {{num_following}}</li>
+    </ul>
+    <button>Follow</button>
+  </div>
+  {% endblock %}
